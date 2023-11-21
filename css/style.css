@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+html,body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100%;
+}
+
+.wraper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    color: white;  
+}
+
+nav {
+    background-color: #0E2954;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav > .wraper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 1.2rem;
+    /* border: 1px solid; */
+}
+
+.menu {
+    width: 50%;
+    /* border: 1px solid; */
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* hero */
+
+header {
+    background-image: url(../img/bg-hero.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000 ;
+}
+
+header .header-opacity {
+    background-color: #0E2954;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .header-jumbotron {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header .header-jumbotron h4 {
+    color: #ffCE10;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+header .header-jumbotron h5 {
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+header .header-jumbotron p {
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: #fff;
+}
+
+* {
+    text-decoration: none;
+    /* color: #333; */
+    text-shadow: none;
+}
+
+.button {
+    background-color: #ffCE10;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.button-xl {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+/* statistic */
+
+#statistic {
+    background-color: #1F6E8C;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+
+#statistic .wraper {
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#statistic .wraper > div {
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+#statistic .wraper > div > p {
+    font-size: 3rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#statistic .wraper > div > p > i {
+    margin-right: 10px;
+    font-size: 3.5rem;
+}
+
+#statistic .wraper > div > small {
+    font-size: 1.5rem;
+}
+
+/* premium */
+
+#premium-course {
+    background-color: #0E2954;
+    color: #fff;
+}
+
+#premium-course>.wraper {
+    padding: 50px 0 50px 0;
+}
+
+#premium-course > .wraper > h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+#premium-course .wraper h4 span {
+    color: #ffCE10;
+}
+#premium-course > .wraper > p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 50px;
+}
+
+.grid > .item {
+    border: 1px solid #2E8A99;
+    background-color: #1F6E8C;
+    border-radius: 5px;
+    position: relative;
+}
+
+.grid > .item > img {
+    width: 10%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.grid > .item > .item-detail {
+    padding: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 60%;
+}
+
+.grid > .item > .item-detail > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.grid > .item > .item-detail > div > small {
+    color: #ccc;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* tentang saya */
+
+#tentang-saya {
+    background-color: #84A7A1;
+    color: #fff;
+}
+
+#tentang-saya > .wraper {
+    padding: 30px 0 30px 0;
+}
+
+#tentang-saya > .wraper >h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+}
+
+#tentang-saya > .wraper >p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+#tentang-saya > .wraper > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tentang-saya>.wraper>div > .foto {
+    width: 30%;
+}
+
+#tentang-saya>.wraper>div > .foto > img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#tentang-saya>.wraper>div > .deskripsi > p {
+    margin: 0 0 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+#tentang-saya>.wraper>div > .deskripsi {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+}
+
+#tentang-saya > .wraper > div > .deskripsi > .sosmed {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+#tentang-saya > .wraper > div > .deskripsi > .sosmed > a {
+    color: #2E8A99;
+}
+
+/* free course */
+
+#free-course {
+    background-color: #0E2954;
+}
+
+#free-course >.wraper {
+    padding: 50px 0 50px 0;
+}
+
+#free-course >.wraper>h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+#free-course  .wraper h4 span {
+    color: #ffCE10;
+}
+
+#free-course >.wraper>p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+#free-course > .wraper > .grid > .item {
+    margin: 0px;
+    padding: 0;
+}
+
+#free-course>.wraper>.grid > .item > .item-detail {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+#free-course > .wraper > .grid > .item > .item-detail > img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#free-course > .wraper > .grid > .item > .item-detail > div{
+    padding: 10px 20px 10px 20px;
+}
+
+/* copyright */
+
+footer {
+    background-color: #1F6E8C;
+    color: #fff;
+    text-align: center;
+}
+
+footer > .wraper {
+    padding: 15px 0 15px 0;
+}
